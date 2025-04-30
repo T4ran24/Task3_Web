@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f0f0f0;
+}
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.sidebar {
+  width: 40%;
+  background-color: #15324C;
+  color: white;
+  padding: 20px;
+}
+.sidebar img {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.sidebar h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.sidebar p,
+.sidebar li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+.sidebar ul {
+  padding-left: 15px;
+}
+.sidebar button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: white;
+  color: #15324C;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.main {
+  width: 70%;
+  padding: 25px;
+}
+.main h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.main h1 span {
+  font-weight: normal;
+  color: #15324C;
+}
+.main p {
+  font-size: 14px;
+  color: #333;
+}
+.main h2 {
+  font-size: 16px;
+  color: #15324C;
+  margin-top: 25px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.item {
+  margin-bottom: 15px;
+}
+.reference {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.reference div {
+  font-size: 14px;
+}
+.sidebar p,
+.sidebar li,
+.reference div {
+    cursor: pointer; 
+}
